@@ -21,7 +21,16 @@ p {
     align-items: left;
     text-align: justify;
     text-justify: inter-word;
+    font-size: large;
 
+}
+
+ul {
+    align-self: left;
+    align-content: left;
+    align-items: left;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 *,
@@ -255,26 +264,32 @@ html {
 }
 
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    font-weight: 900;
 }
 
 h2 {
+    font-weight: bold;
     font-size: 30px
 }
 
 h3 {
+    font-weight: bold;
     font-size: 24px
 }
 
 h4 {
+    font-weight: bold;
     font-size: 20px
 }
 
 h5 {
+    font-weight: bold;
     font-size: 18px
 }
 
 h6 {
+    font-weight: bold;
     font-size: 16px
 }
 
@@ -392,7 +407,8 @@ a {
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: inherit;
+    color: #ffca00;
+    font-weight: bold;
     background-color: inherit;
     text-align: center;
     cursor: pointer;
@@ -503,7 +519,8 @@ a {
 }
 
 .w3-dropdown-hover:hover .w3-dropdown-content {
-    display: block
+    display: block;
+    background-color: #4d4d4d;
 }
 
 .w3-dropdown-hover:first-child,
