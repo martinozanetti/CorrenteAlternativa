@@ -15,6 +15,14 @@ html {
     font-family: sans-serif;
     font-size: large;
 }
+p {
+    align-self: left;
+    align-content: left;
+    align-items: left;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
 
 *,
 *:before,
