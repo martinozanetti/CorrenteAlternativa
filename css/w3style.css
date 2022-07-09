@@ -6,13 +6,14 @@ html {
     text-align: center;
     color: black;
 
-    background-image: url('../img/sfondo.png');
+    /*background-image: url('../img/sfondo.png');*/
+    background-color: #b30000;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: sans-serif;
+    font-family: "monospace", sans-serif;
     font-size: large;
 }
 p {
