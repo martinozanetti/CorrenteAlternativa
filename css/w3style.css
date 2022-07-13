@@ -1,4 +1,9 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+@font-face {
+    font-family: myFont;
+    src: url("../champagne_limousines/Champagne & Limousines.ttf");
+}
+
 html {
     box-sizing: border-box;
 
@@ -13,7 +18,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: "monospace", sans-serif;
+    font-family: myFont, sans-serif;
     font-size: large;
 }
 p {
@@ -23,7 +28,7 @@ p {
     text-align: justify;
     text-justify: inter-word;
     font-size: large;
-
+    font-family: myFont;
 }
 
 ul {
@@ -32,9 +37,8 @@ ul {
     align-items: left;
     text-align: justify;
     text-justify: inter-word;
+    font-family: myFont;
 }
-
-h1
 
 *,
 *:before,
@@ -98,6 +102,7 @@ a {
 .w3-bar a{
     color: #ffca00;
     font-weight: bold;
+    font-family: myFont;
 }
 
 a:active,
@@ -257,7 +262,7 @@ textarea {
 /* End extract */
 html,
 body {
-    font-family: sans-serif;
+    font-family: myFont, sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -312,7 +317,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: sans-serif;
+    font-family: myFont, sans-serif;
     font-weight: bold;
     margin: 10px 0
 }
