@@ -34,6 +34,8 @@ ul {
     text-justify: inter-word;
 }
 
+h1
+
 *,
 *:before,
 *:after {
@@ -266,31 +268,25 @@ html {
 
 h1 {
     font-size: 36px;
-    font-weight: 900;
 }
 
 h2 {
-    font-weight: bold;
     font-size: 30px
 }
 
 h3 {
-    font-weight: bold;
     font-size: 24px
 }
 
 h4 {
-    font-weight: bold;
     font-size: 20px
 }
 
 h5 {
-    font-weight: bold;
     font-size: 18px
 }
 
 h6 {
-    font-weight: bold;
     font-size: 16px
 }
 
@@ -317,7 +313,7 @@ h4,
 h5,
 h6 {
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     margin: 10px 0
 }
 
