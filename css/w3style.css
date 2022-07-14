@@ -4,6 +4,13 @@
     src: url("../champagne_limousines/Champagne & Limousines.ttf");
 }
 
+/* declare some variables */
+:root {
+    --myYellow: #ffca00;
+    --myRed: #b30000;
+    --white: #ffffff;
+}
+
 html {
     box-sizing: border-box;
 
@@ -12,14 +19,14 @@ html {
     color: black;
 
     /*background-image: url('../img/sfondo.png');*/
-    background-color: #b30000;
+    background-color: var(--myRed);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: myFont, sans-serif;
-    font-size: large;
+    font-family: myFont;
+    letter-spacing: 0.3ch;
 }
 p {
     align-self: left;
@@ -27,8 +34,9 @@ p {
     align-items: left;
     text-align: justify;
     text-justify: inter-word;
-    font-size: large;
+    font-size: 22px;
     font-family: myFont;
+    letter-spacing: 0.15ch;
 }
 
 ul {
@@ -38,6 +46,7 @@ ul {
     text-align: justify;
     text-justify: inter-word;
     font-family: myFont;
+    font-size: 22px;
 }
 
 *,
@@ -100,7 +109,7 @@ a {
 }
 
 .w3-bar a{
-    color: #ffca00;
+    color: var(--myYellow);
     font-weight: bold;
     font-family: myFont;
 }
@@ -127,7 +136,7 @@ dfn {
 
 mark {
     background: #ff0;
-    color: #000
+    color: var(--white);
 }
 
 small {
@@ -272,27 +281,27 @@ html {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 60px;
 }
 
 h2 {
-    font-size: 30px
+    font-size: 45px;
 }
 
 h3 {
-    font-size: 24px
+    font-size: 37px;
 }
 
 h4 {
-    font-size: 20px
+    font-size: 32px
 }
 
 h5 {
-    font-size: 18px
+    font-size: 29px
 }
 
 h6 {
-    font-size: 16px
+    font-size: 27px
 }
 
 .w3-serif {
@@ -317,9 +326,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: myFont, sans-serif;
+    font-family: myFont;
     font-weight: bold;
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 .w3-wide {
