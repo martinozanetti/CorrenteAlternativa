@@ -28,6 +28,7 @@ html {
     font-family: myFont;
     letter-spacing: 0.3ch;
 }
+
 p {
     align-self: left;
     align-content: left;
@@ -108,7 +109,7 @@ a {
     background-color: transparent
 }
 
-.w3-bar a{
+.w3-bar a {
     color: var(--myYellow);
     font-weight: bold;
     font-family: myFont;
@@ -540,8 +541,8 @@ a {
     color: #000
 }
 
-.w3-dropdown-hover:hover>.w3-button:first-child,
-.w3-dropdown-click:hover>.w3-button:first-child {
+.w3-dropdown-hover:hover > .w3-button:first-child,
+.w3-dropdown-click:hover > .w3-button:first-child {
     background-color: #ccc;
     color: #000
 }
@@ -751,7 +752,7 @@ a {
     width: 99.99999%
 }
 
-@media (min-width:601px) {
+@media (min-width: 601px) {
     .w3-col.m1 {
         width: 8.33333%
     }
@@ -806,7 +807,7 @@ a {
     }
 }
 
-@media (min-width:993px) {
+@media (min-width: 993px) {
     .w3-col.l1 {
         width: 8.33333%
     }
@@ -913,13 +914,13 @@ a {
     display: inline-block !important
 }
 
-@media (max-width:1205px) {
+@media (max-width: 1205px) {
     .w3-auto {
         max-width: 95%
     }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
     .w3-modal-content {
         margin: 0 10px;
         width: auto !important
@@ -959,7 +960,7 @@ a {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .w3-modal-content {
         width: 500px
     }
@@ -969,7 +970,7 @@ a {
     }
 }
 
-@media (min-width:993px) {
+@media (min-width: 993px) {
     .w3-modal-content {
         width: 900px
     }
@@ -983,13 +984,13 @@ a {
     }
 }
 
-@media (max-width:992px) and (min-width:601px) {
+@media (max-width: 992px) and (min-width: 601px) {
     .w3-hide-medium {
         display: none !important
     }
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
     .w3-sidebar.w3-collapse {
         display: none
     }
@@ -1138,12 +1139,12 @@ a {
 }
 
 .w3-row-padding,
-.w3-row-padding>.w3-half,
-.w3-row-padding>.w3-third,
-.w3-row-padding>.w3-twothird,
-.w3-row-padding>.w3-threequarter,
-.w3-row-padding>.w3-quarter,
-.w3-row-padding>.w3-col {
+.w3-row-padding > .w3-half,
+.w3-row-padding > .w3-third,
+.w3-row-padding > .w3-twothird,
+.w3-row-padding > .w3-threequarter,
+.w3-row-padding > .w3-quarter,
+.w3-row-padding > .w3-col {
     padding: 0 8px
 }
 

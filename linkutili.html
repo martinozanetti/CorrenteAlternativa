@@ -1,131 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- l'originale è qui: https://www.w3schools.com/w3css/tryw3css_templates_band.htm-->
+<!-- Fonte: https://www.w3schools.com/w3css/tryw3css_templates_band.htm-->
 
-<head>
-  <title>Corrente Alternativa</title>
-  <link rel="shortcut icon" href="img/logo.png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/w3style.css">
-</head>
+<!-- ================== HEAD ================== -->
+<script src="inc/head.js"></script>
 
 <body>
 
-  <!-- Navbar:  to hide button on small screens, add w3-hide-small -->
-  <div class="w3-top" style="color: #ffcc0081;">
-    <div class="w3-bar w3-black w3-card">
-      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hide-medium">
-        <img src="img/logotrasp.png" style="height:25px; margin-bottom: 0px; margin-top: -4px"> HOME</a>
-      <a href="chisiamo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hide-medium">CHI SIAMO</a>
-      <a href="rappresentanza.html"
-        class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hide-medium">RAPPRESENTANZA</a>
-      <a href="linkutili.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hide-medium">LINK
-        UTILI</a>
-      <a href="contatti.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hide-medium">CONTATTI</a>
+<!-- ================== NAVIGATION BAR ================== -->
+<script src="inc/navbar.js"></script>
 
-      <div class="w3-dropdown-hover w3-hide-large ">
-        <button class="w3-padding-large w3-button" title="More">&#9776 <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <!-- onclick="myFunction()"> -->
-          <a href="index.html" class="w3-bar-item w3-button">HOME</a>
-          <a href="chisiamo.html" class="w3-bar-item w3-button">CHI SIAMO</a>
-          <a href="rappresentanza.html" class="w3-bar-item w3-button ">RAPPRESENTANZA</a>
-          <a href="linkutili.html" class="w3-bar-item w3-button">LINK UTILI</a>
-          <a href="contatti.html" class="w3-bar-item w3-button">CONTATTI</a>
-        </div>
-      </div>
-
-      <div class="w3-dropdown-hover">
-        <button class="w3-padding-large w3-button" title="More">SPORTELLO STUDENTI <i
-            class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="sportello.html" class="w3-bar-item w3-button">Cos'è lo sportello?</a>
-          <a href="anno1.html" class="w3-bar-item w3-button">Primo anno</a>
-          <a href="anno2.html" class="w3-bar-item w3-button">Secondo anno</a>
-          <a href="anno3.html" class="w3-bar-item w3-button">Terzo anno</a>
-          <a href="magistrale.html" class="w3-bar-item w3-button">Magistrale</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Page content -->
-  <div class="w3-content" style="max-width:2000px;margin-top:46px;">
+<!-- ================== PAGE CONTENT ================== -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px;">
 
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
 
-      <!-- =============== INSERT HERE PAGE CONTENTS =============== -->
-      <h1> Link e altre cose utili </h1>
-      <ul>
-        <li> <A href="http://www.wikipedia.org"> Wikipedia </A> </li>
-        <li>Impostazioni per connettersi a <strong>Eduroam </strong>da Android<br>EAP method:
-          <strong>PEAP</strong><br>Phase-2 authentication: <strong>MSCHAPV2</strong><br>CA certificate:
-          <strong>Unspecified</strong> or <strong>Do not validate</strong><br>Identity:
-          <strong>name.surname@studenti.unimi.it</strong><br>Anonymous Identity: &#8211; blank &#8211;<br>Password:
-          <strong>your_password</strong><br>(Advanced: leave them as they are. In case of doubts:<br> Metered: Detect
-          automatically<br> Proxy: None<br> IP settings: DHCP)<br>
-        </li>
-        <li>Link al sito per la ricerca degli orari delle lezioni<br><a rel="noreferrer noopener"
-            href="https://easystaff.divsi.unimi.it/PortaleStudenti/index.php?view=easycourse&amp;_lang=it&amp;include=corso"
-            target="_blank">https://easystaff.divsi.unimi.it/PortaleStudenti/index.php?view=easycourse&amp;_lang=it&amp;include=corso</a><br>
-        </li>
-        <li>Link al <strong>sito </strong>del Dipartimento di Fisica Unimi<br><a rel="noreferrer noopener"
-            href="https://www.unimi.it/it/corsi/corsi-di-laurea/fisica"
-            target="_blank">https://www.unimi.it/it/corsi/corsi-di-laurea/fisica</a><br></li>
-        <li>Link per accedere alla bacheca della <strong>paritetica</strong>:<br><a rel="noreferrer noopener"
-            href="http://www.fisica.unimi.it/ecm/home/organizzazione/organi-del-dipartimento/commissione-paritetica/bacheca"
-            target="_blank">http://www.fisica.unimi.it/ecm/home/organizzazione/organi-del-dipartimento/commissione-paritetica/bacheca</a><br>dove
-          trovate:<br>• presentazione paritetica<br>• link alle CPDS di Triennale e Magistrale<br>• membri CPDS<br>•
-          linee guida per voto di laurea<br></li>
-        <li>Link per prenotare il <strong>posto in BICF</strong><br><a rel="noreferrer noopener"
-            href="https://orari-be.divsi.unimi.it/PortaleEasyPlanning/biblio/index.php"
-            target="_blank">https://orari-be.divsi.unimi.it/PortaleEasyPlanning/biblio/index.php</a><br></li>
-        <li>Comando unix-shell per allineare l&#8217;ora delle partizioni Linux e
-          Windows<br><code>timedatectl set-local-rtc 1</code></li>
-      </ul>
-      <p> <A href="index.html"> &#9664 Torna alla home </A> </p>
+        <!-- =============== INSERT HERE PAGE CONTENTS =============== -->
+        <h1> Link e altre cose utili </h1>
+        <ul>
+            <li><A href="http://www.wikipedia.org"> Wikipedia </A></li>
+            <li>Impostazioni per connettersi a <strong>Eduroam </strong>da Android<br>EAP method:
+                <strong>PEAP</strong><br>Phase-2 authentication: <strong>MSCHAPV2</strong><br>CA certificate:
+                <strong>Unspecified</strong> or <strong>Do not validate</strong><br>Identity:
+                <strong>name.surname@studenti.unimi.it</strong><br>Anonymous Identity: &#8211; blank &#8211;<br>Password:
+                <strong>your_password</strong><br>(Advanced: leave them as they are. In case of doubts:<br> Metered:
+                Detect
+                automatically<br> Proxy: None<br> IP settings: DHCP)<br>
+            </li>
+            <li>Link al sito per la ricerca degli <strong>orari</strong> delle lezioni<br><a rel="noreferrer noopener"
+                                                                            href="https://easystaff.divsi.unimi.it/PortaleStudenti/index.php?view=easycourse&_lang=it&include=corso"
+                                                                            target="_blank">https://easystaff.divsi.unimi.it/PortaleStudenti/index.php?view=easycourse&amp;_lang=it&amp;include=corso</a><br>
+            </li>
+            <li>Link al <strong>sito </strong>del Dipartimento per la ricerca degli <strong>orari</strong> delle lezioni<br><a rel="noreferrer noopener"
+                                                                                     href="http://elianto.fisica.unimi.it/orario/index.php"
+                                                                                     target="_blank">http://elianto.fisica.unimi.it/orario/index.php</a><br>
+            </li>
+            <li>Link al <strong>sito </strong>del Dipartimento di Fisica Unimi<br><a rel="noreferrer noopener"
+                                                                                     href="https://www.unimi.it/it/corsi/corsi-di-laurea/fisica"
+                                                                                     target="_blank">https://www.unimi.it/it/corsi/corsi-di-laurea/fisica</a><br>
+            </li>
+            <li>Link per accedere alla bacheca della <strong>paritetica</strong>:<br><a rel="noreferrer noopener"
+                                                                                        href="http://www.fisica.unimi.it/ecm/home/organizzazione/organi-del-dipartimento/commissione-paritetica/bacheca"
+                                                                                        target="_blank">http://www.fisica.unimi.it/ecm/home/organizzazione/organi-del-dipartimento/commissione-paritetica/bacheca</a><br>dove
+                trovate:<br>• presentazione paritetica<br>• link alle CPDS di Triennale e Magistrale<br>• membri
+                CPDS<br>•
+                linee guida per voto di laurea<br></li>
+            <li>Link per prenotare il <strong>posto in BICF</strong><br><a rel="noreferrer noopener"
+                                                                           href="https://orari-be.divsi.unimi.it/PortaleEasyPlanning/biblio/index.php"
+                                                                           target="_blank">https://orari-be.divsi.unimi.it/PortaleEasyPlanning/biblio/index.php</a><br>
+            </li>
+            <li>Comando unix-shell per allineare l&#8217;ora delle partizioni Linux e
+                Windows<br><code>timedatectl set-local-rtc 1</code></li>
+        </ul>
+        <p><A href="index.html"> &#9664 Torna alla home </A></p>
 
-      <!-- =============== ========================= =============== -->
+        <!-- =============== ========================= =============== -->
 
-      <!-- End Page Content -->
+        <!-- End Page Content -->
     </div>
-  </div>
+</div>
 
-  <!-- Footer -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- ================== FOOTER ================== -->
+<script src="inc/footer.js"></script>
 
-  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"
-    style="margin-bottom: 0px; height: auto;">
-    <a href="https://www.facebook.com/CorrenteAlternativa" class="fa fa-facebook-official w3-hover-opacity"></a>
-    <a href="https://www.instagram.com/corrente.alternativa" class="fa fa-instagram w3-hover-opacity"></a>
-    <a href="mailto:correntealternativa.ca@gmail.com" class="fa fa-envelope w3-hover-opacity"> </a>
-    <br>
-    <a href="mailto:correntealternativa.ca@gmail.com" style="font-size: 20px;"> correntealternativa.ca@gmail.com </a>
-  </footer>
-
-  <script>
-
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    var modal = document.getElementById('ticketModal');
-    window.onclick = function (event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-  </script>
+<!-- ================== FUNZIONI ================== -->
+<script src="js/main.js"></script>
 
 </body>
-
 </html>
