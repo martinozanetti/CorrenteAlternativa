@@ -18,8 +18,8 @@ html {
     text-align: center;
     color: black;
 
-    /*background-image: url('../img/sfondo.png');*/
-    background-color: var(--myRed);
+    background-image: url('../img/sfondo.png');
+    /*background-color: var(--myRed);*/
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
